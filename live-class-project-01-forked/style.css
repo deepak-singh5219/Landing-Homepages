@@ -1,0 +1,139 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 70px 40px 70px;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  font-family: orbitron;
+  font-weight: 600;
+}
+
+.list > li {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.list > li:hover {
+  text-decoration: underline;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-icon > svg {
+  height: 23px;
+  margin-right: 5px;
+}
+.nav-button {
+  display: none;
+}
+
+.button-group .search-bar > form > input {
+  height: 30px;
+  width: 120px;
+  border-radius: 10px;
+  padding-left: 50px;
+  margin-left: 5px;
+  border-width: 3px;
+  border-color: black;
+  font-size: 20px;
+}
+
+.hero-container .square {
+  position: relative;
+  top: 370px;
+  left: 330px;
+}
+
+.hero-container .model-Image {
+  position: absolute;
+  top: 200px;
+  left: 120px;
+}
+
+.hero-container .globe {
+  position: absolute;
+  /* top: 200px; */
+  left: 1000px;
+}
+
+.hero-container .star {
+  position: absolute;
+  left: 1700px;
+  top: 250px;
+}
+
+.hero-container-right {
+  position: absolute;
+  right: 50px;
+  left: 800px;
+  top: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-container-right .hero-heading {
+  font-family: orbitron;
+  font-size: 60px;
+}
+
+.hero-container-right .hero-description {
+  font-family: poppins;
+  text-align: center;
+  padding: 10px 30px 10px 30px;
+  width: 700px;
+}
+.buttons {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.buttons .btn {
+  font-size: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: none;
+  font-family: orbitron;
+  padding: 10px 30px 10px 30px;
+}
+
+.buttons .button-email {
+  color: rgba(46, 44, 44, 0.911);
+  background-color: #ffffff;
+
+  margin-right: 10px;
+  border: 2px solid #000000;
+}
+
+.buttons .button-join {
+  color: #ffffff;
+  background-color: #000000;
+
+  margin-left: 10px;
+}
+
+.contact-us {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-us .contact-heading {
+  font-family: poppins;
+  font-weight: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.icons .icon {
+  margin-left: 10px;
+}

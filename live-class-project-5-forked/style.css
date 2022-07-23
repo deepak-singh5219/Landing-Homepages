@@ -1,0 +1,107 @@
+.container {
+}
+
+.container > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  filter: brightness(60%);
+  filter: blur(20%);
+}
+
+.container .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  padding: 10px 30px 10px 30px;
+  height: 80px;
+}
+.container .list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  color: #ffffff;
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.container .left-navbar .line {
+  height: 60px;
+  width: 2px;
+  background-color: #ffffff;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.container .left-navbar .logo {
+  width: 110px;
+  margin-left: 30px;
+}
+
+.container .left-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .button-small {
+  height: 40px;
+  width: 150px;
+}
+
+.container .btn {
+  border: 0;
+  text-decoration: none;
+  font-family: poppins;
+  font-size: 18px;
+  background-color: #e03b8b;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.container .list .list-item span img {
+  width: 12px;
+}
+
+.container .hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 200px;
+}
+.container .hero .hero-heading {
+  font-family: Montserrat;
+  font-size: 70px;
+  width: 850px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.container .hero .hero-description {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.container .hero .button-large {
+  height: 60px;
+  width: 300px;
+}
