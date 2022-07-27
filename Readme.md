@@ -1,5 +1,8 @@
 # Landing Homepages
 
+`Name:`
+ Deepak Singh
+
  These are landing homepages build purely with `HTML` and `Core-CSS`. Used basic concepts of margins, paddings, layouts, flexbox and positions to build these homepages.
 
 
@@ -41,7 +44,7 @@
   - ## Homepage-8
   ![Screenshot1](/Screenshots/8.png)
 
-    - ## Homepage-10
+  - ## Homepage-10
   ![Screenshot1](/Screenshots/9.png)
 
   ***
