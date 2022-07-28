@@ -5,6 +5,15 @@
 
  These are landing homepages build purely with `HTML` and `Core-CSS`. Used basic concepts of margins, paddings, layouts, flexbox and positions to build these homepages.
 
+ # Learning Outcomes
+  
+  - Structuring `text` and `image` content for the web using `HTML5`.
+  - Semantic `markup` new to the `HTML standard`.
+  - Styling a web page using `Cascading Style Sheets (CSS)`.
+  - Learnt the `inline and block model` for basic layout.
+  - Learnt the `Flexbox model` for advanced layout.
+  - Learn the `Grid model` for advanced layout.
+  - Making the UI beautiful using CSS concepts.
 
 
   - ## Homepage-1
